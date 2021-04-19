@@ -1,0 +1,103 @@
+
+/* SERVICES */
+.resServices img{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+
+.resServices .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px 0;
+}
+
+.col-1{
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 15%;
+}
+
+.col-1 h2{
+    font-size: 54px;
+}
+.col-1 h3{
+    font-size: 30px;
+    color: #707070;
+    font-weight: 100px;
+    margin: 20px 0 10px;
+}
+
+.col-1 p{
+    font-size: 16px;
+    color: #b7b7b7;
+    font-weight: 100;
+}
+
+.col-1 h4{
+    margin: 30px 0;
+    font-size: 20px;
+}
+
+.col-2 {
+position: relative;
+flex-basis: 70%;
+margin-right:60px;
+display: flex;
+align-items: center;
+
+}
+
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+.col-4:hover{
+    transform: translateY(-5px);
+}
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding: 0 25px;
+}
+
+
+
+/* TESTMONLAS  */
+.testimonial .row{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.testimonial .col-3{
+    text-align: center;
+    padding: 40px 30px;
+    margin: 10px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: transform 0.5s;
+    width:14.8rem;
+}
+
+.testimonial .col-3:hover{
+    transform: translateY(-10px);
+}
+.fa.fa-quote-left{
+    font-size: 34px;
+    color: darkgreen;
+}
+.col-3 p{
+    font-size: 12px;
+    margin: 12px 0;
+    color: #777
+}
+.testimonial .col-3 h3{
+    font-weight: 600;
+    color: #555;
+    font-weight: 16px;
+}
+
